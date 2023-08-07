@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"REV659_Wave2_Retargeting_300x600_atlas_1", frames: [[0,0,810,456],[1002,0,336,584],[0,458,1000,300]]}
+		{name:"REV659_Wave2_Retargeting_300x600_atlas_1", frames: [[0,0,810,456],[812,0,168,292],[0,458,1000,300]]}
 ];
 
 
@@ -231,13 +231,13 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.Phone();
-	this.instance.setTransform(-74.5,-129.5,0.4435,0.4435);
+	this.instance.setTransform(-75,-130,0.8869,0.8869);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.PHONE, new cjs.Rectangle(-74.5,-129.5,149,259), null);
+}).prototype = getMCSymbolPrototype(lib.PHONE, new cjs.Rectangle(-75,-130,149,259), null);
 
 
 (lib.HL = function(mode,startPosition,loop,reversed) {

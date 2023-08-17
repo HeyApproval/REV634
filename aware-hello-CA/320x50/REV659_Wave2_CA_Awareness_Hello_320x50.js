@@ -25,14 +25,14 @@ lib.ssMetadata = [];
 
 
 
-(lib._300x600A1_CA_BLK = function() {
-	this.initialize(img._300x600A1_CA_BLK);
+(lib.plate300x600A1_CA_BLK = function() {
+	this.initialize(img.plate300x600A1_CA_BLK);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,810,456);
 
 
-(lib._300x600A1_CA_WHT = function() {
-	this.initialize(img._300x600A1_CA_WHT);
+(lib.plate300x600A1_CA_WHT = function() {
+	this.initialize(img.plate300x600A1_CA_WHT);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,810,456);
 
@@ -203,7 +203,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._300x600A1_CA_BLK();
+	this.instance = new lib.plate300x600A1_CA_BLK();
 	this.instance.setTransform(-405,-228);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -225,7 +225,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib._300x600A1_CA_WHT();
+	this.instance = new lib.plate300x600A1_CA_WHT();
 	this.instance.setTransform(-405,-228);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
@@ -779,8 +779,8 @@ lib.properties = {
 	color: "#CCCCCC",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_300x600A1_CA_BLK.jpg", id:"_300x600A1_CA_BLK"},
-		{src:"images/_300x600A1_CA_WHT.jpg", id:"_300x600A1_CA_WHT"},
+		{src:"images/plate300x600A1_CA_BLK.jpg", id:"plate300x600A1_CA_BLK"},
+		{src:"images/plate300x600A1_CA_WHT.jpg", id:"plate300x600A1_CA_WHT"},
 		{src:"images/plateHL2.png", id:"plateHL2"}
 	],
 	preloads: []

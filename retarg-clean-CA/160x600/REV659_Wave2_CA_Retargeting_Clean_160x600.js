@@ -709,7 +709,7 @@ if (reversed == null) { reversed = false; }
 
 	// HEAD2
 	this.instance_1 = new lib.HEAD2();
-	this.instance_1.setTransform(9.7,9.6);
+	this.instance_1.setTransform(9.7,33.6,0.75,0.75);
 	this.instance_1._off = true;
 
 	var maskedShapeInstanceList = [this.instance_1];

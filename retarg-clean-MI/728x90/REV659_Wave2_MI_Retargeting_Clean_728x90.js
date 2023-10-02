@@ -222,7 +222,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.plate300x600A1_MI_WHT();
-	this.instance.setTransform(-405,-228);
+	this.instance.setTransform(-405,-228,3.0303,3.0303);
 
 	var maskedShapeInstanceList = [this.instance];
 
@@ -256,7 +256,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.plate300x600A1_MI_BLK();
-	this.instance.setTransform(-405,-228);
+	this.instance.setTransform(-405,-228,1.5625,1.5625);
 
 	var maskedShapeInstanceList = [this.instance];
 
@@ -290,7 +290,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.PhoneMIlight();
-	this.instance.setTransform(-75,-130,0.8869,0.8869);
+	this.instance.setTransform(-75,-130,2.3339,2.3339);
 
 	var maskedShapeInstanceList = [this.instance];
 
@@ -324,7 +324,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.PhoneMIdark();
-	this.instance.setTransform(-75,-130,0.8869,0.8869);
+	this.instance.setTransform(-75,-130,1.9709,1.9709);
 
 	var maskedShapeInstanceList = [this.instance];
 

@@ -204,7 +204,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.plate300x600A1_MI_BLK();
-	this.instance.setTransform(-405,-228);
+	this.instance.setTransform(-405,-228,6.2499,6.2499);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
@@ -226,7 +226,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.plate300x600A1_MI_WHT();
-	this.instance.setTransform(-405,-228);
+	this.instance.setTransform(-405,-228,4,4);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 

@@ -204,7 +204,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_1
 	this.instance = new lib.plate300x600A1_MI_BLK();
-	this.instance.setTransform(-405,-228);
+	this.instance.setTransform(-405,-228,1.5384,1.5384);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
